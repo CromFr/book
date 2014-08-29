@@ -882,7 +882,7 @@ incoming stream into different blocks, and encrypt each block:
 \end{equation}
 #+END_LATEX
 
-This scheme is called \gls{ECB mode}, and it is one of the many ways
+This scheme is called \gls{Electronic Code Book (ECB) mode}, and it is one of the many ways
 that block ciphers can be used to construct stream ciphers.
 Unfortunately, while being very common in home-grown cryptosystems, it
 poses very serious security flaws. For example, in ECB mode, identical
